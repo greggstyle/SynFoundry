@@ -1,0 +1,54 @@
+html,body{height:100%;}
+h2{text-transform:uppercase;font-family:'Raleway', sans-serif !important; margin:0 0 30px 0 !important; color:#fff !important}
+
+#cover{background:url(https://source.unsplash.com/KZHhnb6XsQI) no-repeat top center;background-size:cover;height:100%;text-align:center;color:white;display:flex;align-items:center; }
+#cover::before{content:"";width:50%;height:100%;position:absolute;top:0;left:0;background-color:rgba(0,0,0,.85);}
+#cover-caption{width:100%;}
+#cover-caption img{margin:30px 0 0 0;}
+.subscribeBx{width:350px;margin:auto;position:relative;}
+.subscribeBx form{margin:20px 0 25px 0 !important;}
+.subscribeBx .form-control{background-color:rgba(255,255,255,0.05);border:none;border-radius:0;color:#fff;border-bottom:1px solid #fff;padding:20px 10px;}
+.subscribeBx .icon{width:50px;height:50px;position:absolute;right:7px;top:-5px;color:rgba(255,255,255,0.2);background-color:transparent;border:none;}
+.subscribeBx i{font-size:20px;}
+.socialMedia{width:350px;margin:15px auto;}
+.socialMedia i{font-size:15px;margin:0 20px 0 0;}
+ul.socialicons{list-style:none;margin:0;}
+ul.socialicons li{display:inline-block;margin:0 0 0 0;padding:0 0 0 0;}
+ul.socialicons li a{color:#fff;text-decoration:none;}
+
+
+
+
+h2 span {
+  font: "Oswald", sans-serif;
+  letter-spacing: 0;
+  padding: .25em 0 .325em;
+  display: block;
+  margin: 0 auto;
+  text-shadow: 0 0 80px rgba(255, 255, 255, 0.5);
+  /* Clip Background Image */
+  background: url(https://files.fromsmash.com/ca387c86-299b-11e7-81a7-0afbd0dc3e17/roll_1493113479_optimized.jpg) repeat-y;
+  -webkit-background-clip: text;
+  /* Animate Background Image */
+  -webkit-text-fill-color: transparent;
+  -webkit-animation: aitf 80s linear infinite;
+  /* Activate hardware acceleration for smoother animations */
+  -webkit-transform: translate3d(0, 0, 0);
+  -webkit-backface-visibility: hidden;
+}
+
+/* Animate Background Image */
+@-webkit-keyframes aitf {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
+}
+
+@media (max-width:980px){
+  #cover::before{display:none;}
+  .col-clr{background: rgba(0,0,0,0.55);
+    padding: 40px 0;}
+}
