@@ -1,6 +1,10 @@
 
 
-   <%= link_to "logo", root_path, class: "btn btn-danger btn-xs" %>
+   <%#= link_to "logo", root_path, class: "btn btn-danger btn-xs" %>
+  <!-- Logo -->
+  <%= link_to root_path, class: "navbar-synfoundry-brand" do %>
+    <%= image_tag "https://res.cloudinary.com/greggstyle/image/upload/v1536620314/SynFoundry/logo-synfoundry-dark.png", height: 80 %>
+  <% end %>
 
 <div class="container">
   <div class="row">
@@ -13,7 +17,7 @@
 
       <br>
       <br>
-<p> Updated CyberAttack: <a href="http://map.norsecorp.com/#/"> Map NorseCorp</a>  </p>
+<p> CyberAttack: <a href="http://map.norsecorp.com/#/" target="_blank"> Map NorseCorp</a>  </p>
     </div>
   </div>
 </div>

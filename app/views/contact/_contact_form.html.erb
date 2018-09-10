@@ -1,6 +1,5 @@
-
-<h2>Contact us</h2>
-
+<h3>We keep you posted </h3>
+<br>
 <%= simple_form_for @contact, url: contact_index_path, remote: true do |f| %>
 <div class="form-inputs">
   <%= f.label :name %></br>
@@ -17,7 +16,6 @@
     <%= f.label :nickname %>
     <%= f.text_field :nickname, :hint => 'Leave this field blank!' %>
   </div>
-  <br>
   <div class="form-actions">
     <%= f.submit 'Send Message', class: 'btn btn-primary' %>
   </div>
